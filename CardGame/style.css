@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+	width: 75%;
+}
+
+@media (min-width: 30rem) {
+	#board {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: 1fr;
+		grid-column-gap: 1rem;
+		grid-row-gap: 0px;
+	}
+}
+
+.player {
+	margin-bottom: 3rem;
+}
